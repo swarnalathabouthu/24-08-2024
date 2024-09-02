@@ -1,0 +1,64 @@
+/* this is main Elements */
+.A{
+    grid-area: A;
+    background-color: burlywood;
+}
+.B{
+    grid-area: B;
+    background-color: #af0eb5;
+}
+.C{
+    grid-area: C;
+    background-color: #f62536;
+}
+.gridcontainer{
+    display: grid;
+    grid-template-areas: 
+    'A A A A A'
+    'B B B B B'
+    'C C C C C ';
+    gap: 10px;
+    background-color: aqua;
+    padding: 10px;
+}
+/* Header part styling */
+.AA1{
+    grid-area: AA;
+    background-color: rgb(83, 14, 151);
+
+}
+.AA2{
+    grid-area: AA;
+    background-color: #24e976;
+
+}
+.A{
+    display: grid;
+    grid-template-areas: 
+    'AA AA AA AA AA'
+    'BB BB BB BB BB';
+    gap: 10px;
+    background-color: aqua;
+    padding: 10px;
+}
+/* Header part AA1 Styling */
+divAA1{
+    grid-area: img;
+    background-color: #24e976;
+}
+divAA2{
+    grid-area: head;
+    background-color: #24e976;
+}
+.AA1{
+    display: grid;
+    grid-template-areas: 
+    'AA AA AA AA AA'
+    'BB BB BB BB BB';
+    gap: 10px;
+    background-color: aqua;
+    padding: 10px;
+}
+
+
+
